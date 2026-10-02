@@ -15,7 +15,7 @@ export function AppShell({ title, intro, children }: { title: string; intro: Rea
     <Layout className="app">
       <Layout.Header className="app-header">
         <div className="container app-header__inner">
-          <a className="wordmark" href="/" aria-label="LJ Hooker City Residential reporting home">
+          <a className="wordmark" href={import.meta.env.BASE_URL} aria-label="LJ Hooker City Residential reporting home">
             <span className="wordmark__brand">LJ Hooker</span>
             <span className="wordmark__office">City Residential</span>
           </a>
